@@ -9,9 +9,9 @@ secretGenerator:
     literals:
       - homepageDisplay="blah prod"
 
-# images:
-#  - name: octopussamples/randomquotes-k8s
-#    newName: octopussamples/randomquotes-k8s
+images:
+ - name: twerthi/randomquotes
+   newName: twerthi/randomquotes
 #    newTag: "0.1.5"
 
 # patches:
