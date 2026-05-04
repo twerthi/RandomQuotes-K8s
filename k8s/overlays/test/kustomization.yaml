@@ -10,8 +10,9 @@ secretGenerator:
       - homepageDisplay="blah test"
 
 images:
- - name: twerthi/randomquotes
-   newName: twerthi/randomquotes
+- name: twerthi/randomquotes
+  newName: twerthi/randomquotes
+  newTag: "0.1.47"
 #    newTag: "0.1.5"
 
 # patches:
