@@ -9,9 +9,9 @@ secretGenerator:
     literals:
       - homepageDisplay="blah dev"
 
-# images:
-#  - name: twerthi/randomquotes
-#    newName: twerthi/randomquotes
+images:
+ - name: twerthi/randomquotes
+   newName: twerthi/randomquotes
 #    newTag: "0.1.33"
 
 # patches:
