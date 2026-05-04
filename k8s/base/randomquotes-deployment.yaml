@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: randomquotes-web
-          image: octopussamples/randomquotes-k8s:0.1.32
+          image: twerthi/randomquotes:0.1.43
           resources:
             requests:
               memory: "64Mi"
