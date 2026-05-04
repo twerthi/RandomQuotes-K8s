@@ -4,7 +4,7 @@ metadata:
   name: openshift-gitops-operator-randomquotes-test
   namespace: openshift-gitops
   annotations:
-    argo.octopus.com/project: "OpenShift GitOps Operator Demo"
+    argo.octopus.com/project: "openshift-gitops-operator-demo"
     argo.octopus.com/environment: "test"  
 spec:
   project: default
