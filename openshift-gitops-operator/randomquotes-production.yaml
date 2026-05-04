@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: openshift-gitops-operator-randomquotes-production
-  namespace: openshift-gitops-operator
+  namespace: openshift-gitops
   annotations:
     argo.octopus.com/project: "OpenShift GitOps Operator Demo"
     argo.octopus.com/environment: "production"  
