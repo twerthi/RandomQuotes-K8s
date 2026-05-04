@@ -12,7 +12,7 @@ secretGenerator:
 images:
 - name: twerthi/randomquotes
   newName: twerthi/randomquotes
-  newTag: "0.1.47"
+  newTag: "0.1.50"
 #    newTag: "0.1.33"
 
 # patches:
