@@ -1,20 +1,21 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: openshift-gitops-operator-randomquotes-development
+  name: openshift-gitops-operator-randomquotes-petlife-development
   namespace: openshift-gitops
   annotations:
     argo.octopus.com/project: "openshift-gitops-operator-demo"
-    argo.octopus.com/environment: "development"  
+    argo.octopus.com/environment: "development"
+    argo.octopus.com/tenant: "pet-life"  
 spec:
   project: default
   source:
     repoURL: https://github.com/twerthi/RandomQuotes-K8s.git
     targetRevision: HEAD
-    path: k8s/overlays/dev
+    path: k8s/overlays/tenants/petlife/dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: randomquotes-development
+    namespace: randomquotes-petlife-development
   syncPolicy:
 #    automated: 
 #      prune: true
