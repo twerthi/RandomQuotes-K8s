@@ -12,7 +12,7 @@ secretGenerator:
 images:
 - name: twerthi/randomquotes
   newName: twerthi/randomquotes
-  newTag: "2026.06.15.29"
+  newTag: "2026.06.15.30"
 #    newTag: "0.1.33"
 
 # patches:
