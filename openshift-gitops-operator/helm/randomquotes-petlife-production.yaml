@@ -6,7 +6,8 @@ metadata:
   annotations:
     argo.octopus.com/project: "openshift-gitops-operator-demo"
     argo.octopus.com/environment: "production" 
-    argo.octopus.com/tenant: "pet-life" 
+    argo.octopus.com/tenant: "pet-life"
+    argo.octopus.com/image-replace-paths: "{{ .Values.quotesDeployment.randomquotesWeb.image.repository }}:{{ .Values.quotesDeployment.randomquotesWeb.image.tag }}" 
 spec:
   project: default
   source:

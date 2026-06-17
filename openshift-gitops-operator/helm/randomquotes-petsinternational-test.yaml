@@ -7,6 +7,7 @@ metadata:
     argo.octopus.com/project: "openshift-gitops-operator-demo"
     argo.octopus.com/environment: "test" 
     argo.octopus.com/tenant: "pets-international" 
+    argo.octopus.com/image-replace-paths: "{{ .Values.quotesDeployment.randomquotesWeb.image.repository }}:{{ .Values.quotesDeployment.randomquotesWeb.image.tag }}"
 spec:
   project: default
   source:
