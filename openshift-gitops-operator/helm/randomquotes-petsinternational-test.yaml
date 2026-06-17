@@ -6,13 +6,17 @@ metadata:
   annotations:
     argo.octopus.com/project: "openshift-gitops-operator-demo"
     argo.octopus.com/environment: "test" 
-    argo.octopus.com/tenant: "pets-international"   
+    argo.octopus.com/tenant: "pets-international" 
 spec:
   project: default
   source:
     repoURL: https://github.com/twerthi/RandomQuotes-K8s.git
     targetRevision: HEAD
-    path: k8s/overlays/tenants/petsinternational/test
+    path: helm
+    helm:
+      releaseName: randomquotes-petsinternational-test
+      valueFiles:
+        - tenants/petsinternational/test/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: randomquotes-petsinternational-test

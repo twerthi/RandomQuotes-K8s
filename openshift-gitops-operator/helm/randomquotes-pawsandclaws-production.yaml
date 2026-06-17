@@ -5,14 +5,18 @@ metadata:
   namespace: openshift-gitops
   annotations:
     argo.octopus.com/project: "openshift-gitops-operator-demo"
-    argo.octopus.com/environment: "production"
-    argo.octopus.com/tenant: "paws-and-claws"  
+    argo.octopus.com/environment: "production" 
+    argo.octopus.com/tenant: "paws-and-claws" 
 spec:
   project: default
   source:
     repoURL: https://github.com/twerthi/RandomQuotes-K8s.git
     targetRevision: HEAD
-    path: k8s/overlays/tenants/pawsandclaws/prod
+    path: helm
+    helm:
+      releaseName: randomquotes-pawsandclaws-production
+      valueFiles:
+        - tenants/pawsandclaws/prod/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: randomquotes-pawsandclaws-production

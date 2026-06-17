@@ -5,14 +5,18 @@ metadata:
   namespace: openshift-gitops
   annotations:
     argo.octopus.com/project: "openshift-gitops-operator-demo"
-    argo.octopus.com/environment: "development"
-    argo.octopus.com/tenant: "pet-life"  
+    argo.octopus.com/environment: "development" 
+    argo.octopus.com/tenant: "pet-life" 
 spec:
   project: default
   source:
     repoURL: https://github.com/twerthi/RandomQuotes-K8s.git
     targetRevision: HEAD
-    path: k8s/overlays/tenants/petlife/dev
+    path: helm
+    helm:
+      releaseName: randomquotes-petlife-development
+      valueFiles:
+        - tenants/petlife/dev/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: randomquotes-petlife-development
