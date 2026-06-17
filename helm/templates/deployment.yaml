@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "my-new-chart.fullname" . }}-quotes-deployment
+  name: {{ include "my-new-chart.fullname" . }}-deployment
   labels:
   {{- include "my-new-chart.labels" . | nindent 4 }}
   namespace: {{ .Values.namespaceOverride | default .Release.Namespace }}
@@ -23,7 +23,7 @@ spec:
           valueFrom:
             secretKeyRef:
               key: homepageDisplay
-              name: {{ include "my-new-chart.fullname" . }}-quotes-secrets
+              name: {{ include "my-new-chart.fullname" . }}-secrets
         - name: KUBERNETES_CLUSTER_DOMAIN
           value: {{ quote .Values.kubernetesClusterDomain }}
         image: {{ .Values.quotesDeployment.randomquotesWeb.image.repository }}:{{ .Values.quotesDeployment.randomquotesWeb.image.tag
