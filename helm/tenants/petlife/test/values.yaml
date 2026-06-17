@@ -1,0 +1,6 @@
+quotesDeployment:
+  randomquotesWeb:
+    image:
+      repository: twerthi/randomquotes
+      tag: 0.1.68
+namespaceOverride: "randomquotes-petlife-test"

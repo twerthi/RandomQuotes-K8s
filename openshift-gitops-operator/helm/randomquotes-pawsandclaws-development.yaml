@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: openshift-gitops-operator-randomquotes-pawsandclaws-development
+  namespace: openshift-gitops
+  annotations:
+    argo.octopus.com/project: "openshift-gitops-operator-demo"
+    argo.octopus.com/environment: "development" 
+    argo.octopus.com/tenant: "paws-and-claws" 
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/twerthi/RandomQuotes-K8s.git
+    targetRevision: HEAD
+    path: helm
+    helm:
+      valueFiles:
+        - tenants/pawsandclaws/dev/values.yaml
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: randomquotes-pawsandclaws-development
+  syncPolicy:
+#    automated: 
+#      prune: true
+#      selfHeal: true
+    syncOptions:
+    - Validate=false
+    - CreateNamespace=true

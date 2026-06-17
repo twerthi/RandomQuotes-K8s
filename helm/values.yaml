@@ -1,0 +1,25 @@
+kubernetesClusterDomain: cluster.local
+quotesAppClusterIpService:
+  ports:
+  - port: 6801
+    targetPort: 8080
+  type: ClusterIP
+quotesDeployment:
+  nodeSelector: {}
+  randomquotesWeb:
+    image:
+      repository: twerthi/randomquotes
+      tag: 0.1.68
+    imagePullPolicy: Always
+    resources:
+      limits:
+        cpu: 500m
+        memory: 128Mi
+      requests:
+        cpu: 250m
+        memory: 64Mi
+  replicas: 1
+  tolerations: []
+  topologySpreadConstraints: []
+quotesSecrets:
+  homepageDisplay: ""
