@@ -9,7 +9,7 @@ quotesDeployment:
   randomquotesWeb:
     image:
       repository: twerthi/randomquotes
-      tag: 0.1.68
+      tag: 2026.06.17.36
     imagePullPolicy: Always
     resources:
       limits:
