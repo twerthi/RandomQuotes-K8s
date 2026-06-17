@@ -22,4 +22,4 @@ quotesDeployment:
   tolerations: []
   topologySpreadConstraints: []
 quotesSecrets:
-  homepageDisplay: ""
+  homepageDisplay: "blah"
