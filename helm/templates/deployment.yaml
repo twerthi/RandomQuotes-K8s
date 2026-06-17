@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "my-new-chart.fullname" . }}-deployment
+  name: {{ include "randomquotes.fullname" . }}-deployment
   labels:
-  {{- include "my-new-chart.labels" . | nindent 4 }}
+  {{- include "randomquotes.labels" . | nindent 4 }}
   namespace: {{ .Values.namespaceOverride | default .Release.Namespace }}
 spec:
   replicas: {{ .Values.quotesDeployment.replicas }}
   selector:
     matchLabels:
       component: randomquotes-web
-    {{- include "my-new-chart.selectorLabels" . | nindent 6 }}
+    {{- include "randomquotes.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
         component: randomquotes-web
-      {{- include "my-new-chart.selectorLabels" . | nindent 8 }}
+      {{- include "randomquotes.selectorLabels" . | nindent 8 }}
     spec:
       containers:
       - env:
@@ -23,7 +23,7 @@ spec:
           valueFrom:
             secretKeyRef:
               key: homepageDisplay
-              name: {{ include "my-new-chart.fullname" . }}-secrets
+              name: {{ include "randomquotes.fullname" . }}-secrets
         - name: KUBERNETES_CLUSTER_DOMAIN
           value: {{ quote .Values.kubernetesClusterDomain }}
         image: {{ .Values.quotesDeployment.randomquotesWeb.image.repository }}:{{ .Values.quotesDeployment.randomquotesWeb.image.tag
@@ -36,7 +36,7 @@ spec:
         resources: {{- toYaml .Values.quotesDeployment.randomquotesWeb.resources | nindent
           10 }}
       nodeSelector: {{- toYaml .Values.quotesDeployment.nodeSelector | nindent 8 }}
-      serviceAccountName: {{ include "my-new-chart.serviceAccountName" . }}
+      serviceAccountName: {{ include "randomquotes.serviceAccountName" . }}
       tolerations: {{- toYaml .Values.quotesDeployment.tolerations | nindent 8 }}
       topologySpreadConstraints: {{- toYaml .Values.quotesDeployment.topologySpreadConstraints
         | nindent 8 }}
