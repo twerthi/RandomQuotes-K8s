@@ -61,3 +61,13 @@ jobs:
               run: |
                   echo "Version determined by GitVersion: ${{ env.PACKAGE_VERSION }}" 
                   docker buildx build --push --platform linux/amd64,linux/arm64,linux/arm/v7 -f "./RandomQuotes.Web/Dockerfile" --tag ${{ secrets.DOCKERHUB_REPO }}:${{ env.PACKAGE_VERSION }} --tag ${{ secrets.DOCKERHUB_REPO }}:latest .                 
+
+            - name: Push build information to Octopus Deploy 🐙
+              uses: OctopusDeploy/push-build-information-action@v3
+              with:
+                packages: |
+                  twerthi/randomquotes
+                version: ${{ env.PACKAGE_VERSION }}
+                server: https://shawnsesna.octopusdemos.app
+                api_Key: ${{ secrets.OCTOPUS_API_KEY }}
+                space: Default
