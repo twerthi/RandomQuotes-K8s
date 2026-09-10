@@ -29,6 +29,8 @@ jobs:
                 fetch-depth: '0'
             - name: Setup .NET SDK
               uses: actions/setup-dotnet@v3
+              env:
+                DOTNET_INSTALL_DIR: ${{ github.workspace }}/.dotnet              
               with:
                 dotnet-version: ${{ matrix.dotnet-version }}
             - name: Install GitVersion
