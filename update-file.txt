@@ -1,5 +1,2 @@
 
-[OC-2] Tweaked the void and nobody noticed
-Sacrificed gravity and nobody noticed
-Tweaked the compiler before standup
-Sacrificed the dark arts until it worked
+Yelled at the intern before standup
