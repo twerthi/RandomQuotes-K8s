@@ -1,5 +1,2 @@
 
-Fixed the sprint board until it worked
-[OC-1] Fixed production and called it a feature
-Refactored production while crying softly
-[OC-3] Politely asked the compiler and blamed caching
+[OC-3] Refactored production then immediately reverted it
