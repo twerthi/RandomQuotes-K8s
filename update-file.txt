@@ -1,2 +1,5 @@
 
-Yelled at the intern before standup
+Fixed the sprint board until it worked
+[OC-1] Fixed production and called it a feature
+Refactored production while crying softly
+[OC-3] Politely asked the compiler and blamed caching
