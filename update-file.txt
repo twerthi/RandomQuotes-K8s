@@ -1,3 +1,4 @@
 
-[OC-1] Convinced the intern until it worked
-[OC-3] Reverse-engineered Schrödinger's bug then immediately reverted it
+Apologized to a rogue semicolon for the last time
+Bribed a rubber duck with zero tests
+Negotiated with production before standup
