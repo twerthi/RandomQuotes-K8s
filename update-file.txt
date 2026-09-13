@@ -1,4 +1,2 @@
 
-Apologized to a rogue semicolon for the last time
-Bribed a rubber duck with zero tests
-Negotiated with production before standup
+[OC-3] Rewired 42 with a spoon
