@@ -1,5 +1,6 @@
 
-[OC-3] Rewired 42 with a spoon
-Tweaked a rogue semicolon while crying softly
-[OC-1] Convinced the dark arts with zero tests
-Stared menacingly at gravity and blamed caching
+Apologized to the void and nobody noticed
+Bribed the hamsters and called it a feature
+[OC-3] Accidentally improved a rubber duck with zero tests
+Apologized to the intern while crying softly
+Stared menacingly at the hamsters and took full credit
