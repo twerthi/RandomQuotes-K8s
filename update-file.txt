@@ -1,6 +1,2 @@
 
-Apologized to the void and nobody noticed
-Bribed the hamsters and called it a feature
-[OC-3] Accidentally improved a rubber duck with zero tests
-Apologized to the intern while crying softly
-Stared menacingly at the hamsters and took full credit
+Blamed the sprint board and nobody noticed
