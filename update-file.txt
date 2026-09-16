@@ -1,2 +1,2 @@
 
-Blamed the sprint board and nobody noticed
+Refactored a rubber duck until it worked
