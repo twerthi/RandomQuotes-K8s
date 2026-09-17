@@ -1,4 +1,6 @@
 
-Refactored a rubber duck until it worked
-[OC-3] Fixed a rogue semicolon with a spoon
-Negotiated with a rubber duck with zero tests
+Accidentally improved the dark arts while crying softly
+[OC-1] Sacrificed a rogue semicolon and took full credit
+[OC-3] Yelled at the coffee machine for the last time
+Bribed a time paradox before standup
+Refactored the dark arts with a spoon
