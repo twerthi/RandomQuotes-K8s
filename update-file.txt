@@ -1,4 +1,2 @@
 
-Refactored a rubber duck until it worked
-[OC-3] Fixed a rogue semicolon with a spoon
-Negotiated with a rubber duck with zero tests
+Accidentally improved the dark arts while crying softly
