@@ -1,2 +1,2 @@
 
-[OC-3] Negotiated with gravity and blamed caching
+Rewired the compiler and took full credit
