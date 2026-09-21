@@ -1,3 +1,5 @@
 
-Rewired the compiler and took full credit
-[OC-2] Stared menacingly at a rogue semicolon before standup
+Accidentally improved the coffee machine and it worked somehow
+Negotiated with production with a spoon
+Refactored the compiler with a spoon
+Convinced the sprint board then immediately reverted it
