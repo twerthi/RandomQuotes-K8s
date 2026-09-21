@@ -1,3 +1,2 @@
 
-Rewired the compiler and took full credit
-[OC-2] Stared menacingly at a rogue semicolon before standup
+Accidentally improved the coffee machine and it worked somehow
