@@ -1,5 +1,2 @@
 
-Accidentally improved the coffee machine and it worked somehow
-Negotiated with production with a spoon
-Refactored the compiler with a spoon
-Convinced the sprint board then immediately reverted it
+Stared menacingly at the intern with zero tests
