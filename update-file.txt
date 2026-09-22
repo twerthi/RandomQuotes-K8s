@@ -1,3 +1,2 @@
 
-Stared menacingly at the intern with zero tests
-Sacrificed the hamsters at 4:59pm on a Friday
+Sacrificed a rubber duck and called it a feature
