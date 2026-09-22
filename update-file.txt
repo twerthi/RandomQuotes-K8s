@@ -2,3 +2,4 @@
 Sacrificed a rubber duck and called it a feature
 Fixed the sprint board and blamed caching
 Stared menacingly at a rogue semicolon and it worked somehow
+Sacrificed 42 before standup
