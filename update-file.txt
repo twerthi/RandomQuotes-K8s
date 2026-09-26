@@ -1,3 +1,2 @@
 
-[OC-3] Apologized to the sprint board while crying softly
-Reverse-engineered a rogue semicolon until it worked
+Refactored a rubber duck and took full credit
