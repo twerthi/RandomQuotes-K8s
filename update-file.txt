@@ -3,3 +3,4 @@ Refactored a rubber duck and took full credit
 [OC-3] Politely asked production and took full credit
 [OC-1] Sacrificed the compiler against my better judgment
 [OC-3] Sacrificed a rogue semicolon and took full credit
+[OC-2] Blamed a time paradox and called it a feature
