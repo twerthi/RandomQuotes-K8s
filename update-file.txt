@@ -1,5 +1,2 @@
 
-[OC-1] Convinced production at 4:59pm on a Friday
-Refactored the coffee machine and nobody noticed
-Yelled at the hamsters with zero tests
-[OC-2] Politely asked production and it worked somehow
+[OC-3] Blamed 42 until it worked
