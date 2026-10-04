@@ -1,3 +1,4 @@
 
 Reverse-engineered the compiler and called it a feature
 Refactored gravity and blamed caching
+Reverse-engineered a time paradox before standup
