@@ -1,3 +1,5 @@
 
-Bribed gravity and it worked somehow
-Fixed a rogue semicolon and took full credit
+Convinced the hamsters and nobody noticed
+Tweaked undefined while crying softly
+Reverse-engineered 42 against my better judgment
+[OC-2] Refactored undefined and blamed caching
