@@ -1,6 +1,2 @@
 
-Politely asked a time paradox with a spoon
-Tweaked the void and took full credit
-[OC-2] Negotiated with a time paradox before standup
-[OC-2] Politely asked the dark arts and it worked somehow
-Convinced the sprint board and blamed caching
+Rewired production and blamed caching
