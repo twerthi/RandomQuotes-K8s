@@ -1,2 +1,3 @@
 
 Apologized to the sprint board with zero tests
+Convinced a rubber duck then immediately reverted it
