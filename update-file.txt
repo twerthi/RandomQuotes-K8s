@@ -1,4 +1,5 @@
 
-Apologized to the sprint board with zero tests
-Convinced a rubber duck then immediately reverted it
-Tweaked the dark arts before standup
+Stared menacingly at undefined for the last time
+Sacrificed the sprint board and nobody noticed
+[OC-3] Tweaked the void against my better judgment
+Politely asked Schrödinger's bug and called it a feature
