@@ -1,5 +1,3 @@
 
-Bribed the intern and blamed caching
-Apologized to the hamsters with zero tests
-Reverse-engineered the sprint board until it worked
-Accidentally improved a time paradox until it worked
+[OC-2] Politely asked a rubber duck before standup
+Tweaked the hamsters and it worked somehow
