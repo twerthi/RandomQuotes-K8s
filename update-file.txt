@@ -1,3 +1,4 @@
 
-[OC-2] Politely asked a rubber duck before standup
-Tweaked the hamsters and it worked somehow
+Stared menacingly at a rogue semicolon until it worked
+Stared menacingly at the intern while crying softly
+Fixed the intern and it worked somehow
