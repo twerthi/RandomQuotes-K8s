@@ -1,3 +1,6 @@
 
-Apologized to 42 at 4:59pm on a Friday
-[OC-3] Politely asked the void to appease the CI gods
+Tweaked production then immediately reverted it
+Stared menacingly at undefined then immediately reverted it
+Yelled at the compiler with zero tests
+[OC-2] Apologized to Schrödinger's bug before standup
+Politely asked gravity while crying softly
