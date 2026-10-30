@@ -1,3 +1,2 @@
 
-[OC-2] Yelled at the compiler and called it a feature
-[OC-1] Rewired Schrödinger's bug at 4:59pm on a Friday
+[OC-1] Rewired production to appease the CI gods
