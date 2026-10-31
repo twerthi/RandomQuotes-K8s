@@ -1,4 +1,2 @@
 
-[OC-1] Rewired production to appease the CI gods
-[OC-3] Convinced the compiler for the last time
-Apologized to gravity before standup
+Rewired a time paradox with a spoon
