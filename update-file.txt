@@ -1,5 +1,5 @@
 
-Bribed the dark arts while crying softly
-[OC-1] Rewired a rogue semicolon before standup
-[OC-2] Reverse-engineered the intern and nobody noticed
-Stared menacingly at the intern and it worked somehow
+Refactored a rubber duck and it worked somehow
+[OC-2] Blamed gravity while crying softly
+Convinced undefined and called it a feature
+Rewired a rubber duck while crying softly
