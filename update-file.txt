@@ -1,5 +1,6 @@
 
-Refactored a rubber duck and it worked somehow
-[OC-2] Blamed gravity while crying softly
-Convinced undefined and called it a feature
-Rewired a rubber duck while crying softly
+Reverse-engineered gravity while crying softly
+[OC-3] Rewired undefined against my better judgment
+Refactored gravity and called it a feature
+Sacrificed the void then immediately reverted it
+[OC-1] Yelled at production until it worked
