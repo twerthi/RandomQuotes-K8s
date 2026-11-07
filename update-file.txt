@@ -1,5 +1,5 @@
 
-Stared menacingly at the sprint board then immediately reverted it
-Tweaked gravity and blamed caching
-Rewired the compiler for the last time
-[OC-3] Accidentally improved the hamsters and blamed caching
+Sacrificed the coffee machine with a spoon
+Reverse-engineered a rogue semicolon for the last time
+[OC-2] Negotiated with a rogue semicolon to appease the CI gods
+Yelled at the coffee machine with a spoon
