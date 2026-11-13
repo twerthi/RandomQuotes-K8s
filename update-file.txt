@@ -1,4 +1,2 @@
 
-Stared menacingly at gravity against my better judgment
-[OC-3] Tweaked 42 to appease the CI gods
-Refactored the void while crying softly
+[OC-2] Accidentally improved the dark arts for the last time
