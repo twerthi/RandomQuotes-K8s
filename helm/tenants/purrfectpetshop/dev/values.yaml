@@ -2,5 +2,5 @@ quotesDeployment:
   randomquotesWeb:
     image:
       repository: twerthi/randomquotes
-      tag: 2026.11.08.105
+      tag: 2026.11.16.112
 namespaceOverride: "randomquotes-purrfectpetshop-development"
