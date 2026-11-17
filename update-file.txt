@@ -1,3 +1,2 @@
 
-Apologized to the void and it worked somehow
-Politely asked 42 and took full credit
+Blamed Schrödinger's bug and called it a feature
