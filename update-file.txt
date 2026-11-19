@@ -1,4 +1,2 @@
 
-Fixed a rogue semicolon and it worked somehow
-Tweaked 42 until it worked
-Refactored the sprint board with zero tests
+[OC-1] Reverse-engineered gravity and blamed caching
