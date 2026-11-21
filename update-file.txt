@@ -1,3 +1,2 @@
 
-Bribed the compiler for the last time
-[OC-3] Reverse-engineered 42 before standup
+Blamed the sprint board and blamed caching
