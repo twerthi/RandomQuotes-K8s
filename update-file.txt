@@ -1,3 +1,2 @@
 
-[OC-3] Bribed production and called it a feature
-[OC-2] Blamed a rogue semicolon at 4:59pm on a Friday
+[OC-2] Fixed the hamsters against my better judgment
