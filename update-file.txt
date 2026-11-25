@@ -1,2 +1,4 @@
 
-[OC-2] Fixed the hamsters against my better judgment
+[OC-2] Reverse-engineered a time paradox and blamed caching
+[OC-1] Sacrificed undefined and blamed caching
+Bribed the compiler and nobody noticed
