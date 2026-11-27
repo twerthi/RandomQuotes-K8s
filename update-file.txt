@@ -1,5 +1,2 @@
 
-Blamed the dark arts with zero tests
-[OC-3] Reverse-engineered the intern and nobody noticed
-Accidentally improved a time paradox and called it a feature
-[OC-3] Rewired Schrödinger's bug then immediately reverted it
+Bribed the sprint board before standup
